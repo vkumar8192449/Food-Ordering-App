@@ -1,0 +1,46 @@
+{
+  "AllMeals": [
+    {
+      "desc": "An Exotic Combination of White Mozzarilla, Cream White Cheese, Cheddar, Monterey Jack, Cream Orange Cheese, Colby, Orange Cheddar.",
+      "dishname": "Cheezy-7 Pizza",
+      "price": "275",
+      "quantity": 1
+    },
+    {
+      "desc": "It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+      "dishname": "Tandoori Panner Pizza",
+      "price": "319",
+      "quantity": 1
+    },
+    {
+      "desc": "From the streets of Old Delhi-Our Signature Paneer Makhani/dal makhani thali with kachumbar salad/parantha/jeera rice,gulab jamun,rajma,raita & papad.",
+      "dishname": "Delhi 6 Thali",
+      "price": "325",
+      "quantity": 1
+    },
+    {
+      "desc": "A favorite mumbai time pass snack-spiced potato dumplings with chutneys and spiced chillies enclosed in a pao.",
+      "dishname": "Bombay Vada Pao",
+      "price": "105",
+      "quantity": 1
+    },
+    {
+      "desc": "Hyderabadi Dum style Chicken Biryani, cooked in aromatic spices such as cardamom, clove and cinnamon.",
+      "dishname": "Hyderabadi Dum Chicken Biryani",
+      "price": "429",
+      "quantity": 1
+    },
+    {
+      "desc": "100% Pure eggless moist and rich chocolate sponge layered with daily and exotic seasonable fruit and covered with chocolate.",
+      "dishname": "Choco Fruit Cake",
+      "price": "375",
+      "quantity": 1
+    },
+    {
+      "desc": "A combination of spicy chickpeas and paneer with bhatura.",
+      "dishname": "Special Paneer Chole Bhature",
+      "price": "130",
+      "quantity": 1
+    }
+  ]
+}

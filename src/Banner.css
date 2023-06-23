@@ -1,0 +1,132 @@
+#banner {
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    border-radius: 16px;
+    width: 600px;
+    padding: 0px 22px 5px 22px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    z-index: 1;
+}
+
+@media (width <=1200px) {
+    #banner {
+        width: 500px;
+    }
+}
+
+@media (width <=1000px) {
+    #banner h1 {
+        font-size: 24px;
+    }
+
+    #banner p {
+        font-size: 15px;
+    }
+}
+
+@media (width <=670px) {
+    #banner {
+        width: 450px;
+    }
+
+    #banner h1 {
+        font-size: 22px;
+    }
+
+    #banner p {
+        font-size: 14px;
+    }
+}
+
+@media (width <=620px) {
+    #banner {
+        width: 400px;
+    }
+}
+
+@media (width <=560px) {
+    #banner {
+        width: 375px;
+    }
+
+    #banner h1 {
+        font-size: 20px;
+    }
+
+    #banner p {
+        font-size: 12px;
+    }
+}
+
+@media (width <=450px) {
+    #banner {
+        width: 340px;
+    }
+
+    #banner h1 {
+        font-size: 19px;
+    }
+
+    #banner p {
+        font-size: 11px;
+    }
+}
+
+@media (width <=400px) {
+    #banner {
+        width: 295px;
+        padding: 0px 18px 5px 18px;
+    }
+
+    #banner h1 {
+        font-size: 18px;
+    }
+
+    #banner p {
+        font-size: 10px;
+    }
+}
+
+@media (width <=350px) {
+    #banner {
+        width: 260px;
+    }
+
+    #banner h1 {
+        font-size: 16px;
+    }
+
+    #banner p {
+        font-size: 10px;
+    }
+}
+
+@media (width <=310px) {
+    #banner {
+        width: 220px;
+        padding: 0px 10px 5px 10px;
+    }
+
+    #banner h1 {
+        font-size: 13px;
+    }
+
+    #banner p {
+        font-size: 9px;
+    }
+}
+
+@media (width <=280px) {
+    #banner {
+        width: 200px;
+    }
+}

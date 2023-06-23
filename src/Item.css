@@ -1,0 +1,214 @@
+#item {
+    width: 800px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+@media (width <=1200px) {
+    #item {
+        width: 700px;
+    }
+}
+
+@media (width <=1000px) {
+    #item {
+        width: 550px;
+    }
+}
+
+@media (width <=800px) {
+    #item {
+        width: 500px;
+    }
+}
+
+@media (width <=670px) {
+    #item {
+        width: 450px;
+    }
+}
+
+@media (width <=620px) {
+    #item {
+        width: 400px;
+    }
+
+    .dishname {
+        font-size: 18px !important;
+    }
+
+    .description {
+        font-size: 14px !important;
+    }
+
+    .price {
+        font-size: 16px !important;
+    }
+}
+
+@media (width <=560px) {
+    #item {
+        width: 375px;
+    }
+}
+
+@media (width <=450px) {
+    #item {
+        width: 340px;
+    }
+
+    .dishname {
+        font-size: 16px !important;
+    }
+
+    .description {
+        font-size: 12px !important;
+    }
+
+    .price {
+        font-size: 15px !important;
+    }
+
+}
+
+@media (width <=400px) {
+    #item {
+        width: 295px;
+    }
+
+    #rightmenu {
+        transform: scale(0.9);
+    }
+}
+
+@media (width <=350px) {
+    #item {
+        width: 260px;
+    }
+
+    #rightmenu {
+        transform: scale(0.85);
+    }
+
+    .dishname {
+        font-size: 15px !important;
+    }
+
+    .description {
+        font-size: 11px !important;
+    }
+
+    .price {
+        font-size: 14px !important;
+    }
+}
+
+@media (width <=310px) {
+    #item {
+        width: 220px;
+    }
+
+    #rightmenu {
+        transform: scale(0.85);
+    }
+
+    .dishname {
+        font-size: 12px !important;
+    }
+
+    .description {
+        font-size: 8px !important;
+    }
+
+    .price {
+        font-size: 14px !important;
+    }
+}
+
+@media (width <=280px) {
+    #item {
+        width: 200px;
+    }
+
+    #rightmenu {
+        transform: scale(0.65);
+    }
+
+    .dishname {
+        font-size: 10px !important;
+    }
+
+    .description {
+        font-size: 7px !important;
+    }
+
+    .price {
+        font-size: 12px !important;
+    }
+}
+
+@media (width <=250px) {
+    #item {
+        width: 180px;
+    }
+
+    #rightmenu {
+        transform: scale(0.55);
+    }
+}
+
+.price {
+    color: brown;
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+    font-size: 16px;
+    width: 90%;
+}
+
+.dishname {
+    font-size: 20px;
+}
+
+#rightmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputnumber {
+    font-size: 16px;
+    width: 40px;
+    text-align: center;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#addbtn {
+    background-color: #6e1d1d;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    padding: 6px;
+    width: 80px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+#addbtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}

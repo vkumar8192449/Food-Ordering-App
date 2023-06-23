@@ -1,0 +1,136 @@
+#cartitem {
+    border-bottom: 2px solid brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#leftcartitem p {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#pricequan span:nth-child(2) {
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+.price {
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#rightcartitem button {
+    cursor: pointer;
+    color: brown;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 3px 6px 0px 8px;
+    margin-left: 4px;
+}
+
+#rightcartitem button:hover {
+    color: white;
+    background-color: brown;
+}
+
+@media (width <=600px) {
+    #leftcartitem p {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 14px !important;
+    }
+
+    #pricequan span:nth-child(2) {
+        font-size: 12px;
+    }
+
+    #rightcartitem button {
+        transform: scale(0.8);
+    }
+}
+
+@media (width <=420px) {
+    #leftcartitem p {
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 12px !important;
+    }
+
+    #pricequan span:nth-child(2) {
+        font-size: 8px;
+    }
+
+    #rightcartitem button {
+        padding: 2px 7px 0px 0px;
+        margin-left: -2px;
+    }
+
+    #rightcartitem button span {
+        width: 16px;
+    }
+}
+
+@media (width <=350px) {
+    #leftcartitem p {
+        font-size: 11px;
+    }
+
+    #rightcartitem button {
+        padding: 2px 9px 0px 0px;
+        margin-left: -3px;
+    }
+
+    #rightcartitem button span {
+        width: 14px;
+    }
+}
+
+@media (width <=300px) {
+    #cartitem {
+        position: relative;
+    }
+
+    #leftcartitem p {
+        font-size: 9px;
+    }
+
+    .price {
+        font-size: 10px !important;
+    }
+
+    #rightcartitem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #rightcartitem button {
+        transform: scale(0.6);
+    }
+
+    #rightcartitem button span {
+        width: 16px;
+    }
+}
+
+@media (width <=250px) {
+    #rightcartitem button span {
+        width: 14px;
+    }
+}

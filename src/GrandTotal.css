@@ -1,0 +1,65 @@
+#gtotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+#gtotalrow2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#gtotalrow2 button:nth-child(1) {
+    cursor: pointer;
+    margin-left: 8px;
+    color: brown;
+    background-color: whitesmoke;
+    font-size: 17px;
+    padding: 8px 20px;
+    border-radius: 18px;
+    border: 1px solid brown;
+}
+
+#gtotalrow2 button:nth-child(2) {
+    cursor: pointer;
+    margin-left: 8px;
+    color: white;
+    background-color: #6e1d1d;
+    font-size: 17px;
+    padding: 8px 20px;
+    border-radius: 18px;
+    border: 1px solid brown;
+}
+
+#gtotalrow2 button:hover {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+@media (width <=600px) {
+    #gtotal h2 {
+        font-size: 18px;
+    }
+
+    #gtotalrow2 button {
+        font-size: 12px !important;
+    }
+}
+
+@media (width <=420px) {
+    #gtotal h2 {
+        font-size: 15px;
+    }
+
+    #gtotalrow2 button {
+        font-size: 8px !important;
+    }
+}
+
+@media (width <=300px) {
+    #gtotal h2 {
+        font-size: 13px;
+    }
+
+    #gtotalrow2 button {
+        font-size: 6px !important;
+    }
+}

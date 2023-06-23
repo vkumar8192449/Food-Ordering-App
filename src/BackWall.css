@@ -1,0 +1,8 @@
+.wall {
+    box-sizing: border-box;
+    background: url('../public/back.webp');
+    background-size: 100% 230%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+}
